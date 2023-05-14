@@ -1,0 +1,46 @@
+body {
+    background-color: #4c6783;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  table {
+    border-collapse:collapse;
+    width: 1300px;    
+    padding: auto;
+    margin: 0 auto;
+    background-color: #7fe4f3;
+    border: 1px solid #000000;
+  }
+  
+  th {
+    text-align: left;
+    padding: 30px;
+    background-color: #3d3a3abb;
+    border-bottom: 1px solid #000000;
+    border-width: 4px solid #000;
+  }
+  
+  td {
+    padding: 30px;
+    border-bottom: 1px solid #000000;
+  }
+  
+  tr:hover {
+    background-color: #010101;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+    th {
+      padding: 8px;
+    }
+    td {
+      padding: 8px;
+    }
+  }
+  
